@@ -1,0 +1,614 @@
+* {
+  margin: 0 auto;
+}
+
+@font-face {
+ font-family: "Open Sans";
+ src: url("../fonts/OpenSans-Bold.ttf") format("ttf"),
+      url("../fonts/OpenSans-Bold.woff") format("woff"),
+      url("../fonts/OpenSans-Bold.woff2") format("woff2");
+ font-weight: bold; 
+}
+
+@font-face {
+ font-family: "Open Sans";
+ src: url("../fonts/OpenSans-Regular.ttf") format("ttf"),     
+      url("../fonts/OpenSans-Regular.woff") format("woff"),
+      url("../fonts/OpenSans-Regular.woff2") format("woff2");
+font-weight: 400;
+}
+
+
+body {
+  width: 320px;
+}
+
+.header {
+  max-width: 100%;
+  background-image: url(../images/football_767.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #171837;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_logo {
+  width: 130px;
+  height: 35px;
+  margin-top: 32px;
+}
+
+.header_logo_icon {
+  fill: #ffffff;
+}
+
+.header_title {
+  width: 100%;
+  margin-top: 136px;
+}
+
+.header_text_1 {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.header_text_2 {
+  display: block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 64px;
+}
+
+.header_app_store {
+  width: 280px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #5e42b0;
+  margin-top: 89px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header_app_store:hover {
+  box-shadow: 0 0 30px #cc0000; 
+}
+
+.header_app_store_logo {
+  margin-right: 11px;
+  margin-top: 5px;
+}
+
+.header_app_store_logo_img {
+  fill: #ffffff;
+  width: 20px;
+  height: 24px;
+}
+
+.header_button_text {
+  margin-left: 0;
+}
+
+.header_button_text_2 {
+  margin-left: 0;
+  margin-right: 110px;
+}
+
+.header_google_play {
+  width: 280px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #5e42b0;
+  margin-bottom: 84px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header_google_play:hover {
+  box-shadow: 0 0 30px #cc0000; 
+}
+
+.header_google_play_logo {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.header_google_play_logo_img {
+  fill: #ffffff;
+  width: 21px;
+  height: 20px;
+}
+
+.header_app_store_text_1,
+.header_google_play_text_1 {
+  font-family: "Open Sans";
+  font-size: 7px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 9px;
+}
+
+.header_app_store_text_2,
+.header_google_play_text_2 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 7px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.container_1 {
+  width: 100%;
+}
+
+.content_block_1,
+.content_block_2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content_title,
+.content_title_2 {
+  margin-top: 22px; 
+  margin-left: 0;
+}
+
+.content_text_1,
+.content_text_2 {
+  display: block;
+  width: 100%;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 36px;
+  color: #e7e7e7;
+  margin-left: 20px;
+}
+
+.img_sport_football {
+  max-width: 192px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.first_title,
+.second_title,
+.third_title,
+.first_title_2,
+.second_title_2,
+.third_title_2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px; 
+}
+
+.title_icon_full {
+  width: 20px;
+  height: 18px;
+  margin-left: 20px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title_icon {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.title_icon_graphic {
+  width: 15px;
+  height: 4px;
+  background-color: #5e42b0;
+  border-radius: 2px;
+}
+
+.title_icon_graphic_2 {
+  width: 15px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.title_icon_3 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+  color: #8765dd;
+}
+
+.title_icon_graphic_3 {
+  width: 15px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.img_sport_football {
+  position: relative; 
+  min-width: 192px; 
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_sport_basketball {
+  position: relative; 
+  min-width: 302px; 
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first_title_text,
+.second_title_text,
+.third_title_text,
+.first_title_text_2,
+.second_title_text_2,
+.third_title_text_2 {
+  display: block;
+  margin-left: 0;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 18px;
+  color: #c1c1c1;
+}
+
+.first_description {
+  width: 100%;
+  min-height: 189px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+.second_description {
+  width: 100%;
+  min-height: 189px;
+  box-sizing: border-box;
+  background-color: #f5f4f9;
+}
+
+.third_description {
+  width: 100%;
+  min-height: 189px;
+  box-sizing: border-box;
+  background-color: #5e42b0;
+}
+
+.first_description_text,
+.second_description_text {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 28px;
+}
+
+.third_description_text {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 28px;
+  color: #ffffff;
+}
+
+.first_content_description_2 {
+  width: 100%;
+  min-height: 189px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+.second_content_description_2 {
+  width: 100%;
+  min-height: 189px;
+  box-sizing: border-box;
+  background-color: #f5f4f9;
+}
+
+.third_content_description_2 {
+  width: 100%;
+  min-height: 189px;
+  box-sizing: border-box;
+  background-color: #090c35;
+}
+
+.first_description_text_2,
+.second_description_text_2 {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 28px;
+}
+
+.third_description_text_2 {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 28px;
+  color: #ffffff;
+}
+
+.container_2 {
+  width: 100%;
+ }
+
+.first_container,
+.second_container,
+.third_container
+ {
+  display: flex;
+  width: 320px;
+  flex-wrap: wrap;
+}
+
+ .numder {
+  display: flex;
+  position: relative; 
+  background-color: #5e42b0;
+  width: 70px; 
+  height: 70px;
+  margin-left: 20px;
+  bottom: 58px; 
+  text-align: center;
+}
+
+.number_icon_full {
+  width: 20px;
+  height: 20px;
+  margin-left: 26px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numder_icon {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+   color: #ffffff;
+}
+
+.numder_icon_graphic {
+  width: 15px;
+  height: 4px;
+  margin-top: 2px;
+  background-color: #8f7bc8;
+  border-radius: 2px;
+}
+
+.first_photo {
+  flex: 0 0 320px;
+  min-height: 350px;
+  background-image: url(../images/be-active_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e2f1fa;
+}
+
+.second_photo {
+  
+  flex: 0 0 320px;
+  min-height: 350px;
+  background-image: url(../images/find-contact_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #c64847;
+}
+
+.third_photo {
+  
+  flex: 0 0 320px;
+  min-height: 350px;
+  background-image: url(../images/work-it_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #7193c0;
+}
+
+.text_block_1 {
+  width: 100%;
+  min-height: 212px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.text_block_2 {
+  width: 100%;
+  min-height: 196px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.text_block_3 {
+  width: 100%;
+  min-height: 225px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.text_block_title {
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 34px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 20px;
+  color: #e7e7e7;
+}
+
+.first_description_text_block,
+.second_description_text_block,
+.third_description_text_block {
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+
+.footer {
+  max-width: 100%;
+  background-image: url(../images/game_767.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #171737;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_icon {
+  width: 94px;
+  height: 94px;
+  margin-top: 99px;
+  background-color: #7151cf;
+  border-radius: 10px;
+}
+
+.footer_icon_1 {
+  width: 60px;
+  height: 50px; 
+  fill: #ffffff;
+  transform: translate(27%, 45%);
+}
+
+.footer_title {
+  width: 100%;
+  margin-top: 136px;
+  margin-top: 59px;
+}
+
+.footer_text_1 {
+  display: block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+
+.footer_text_2 {
+  display: block;
+  color: #9b8ec1;
+  font-size: 11px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  margin-top: 13px;
+  text-align: center;
+}
+
+.footer_app_store {
+  width: 280px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #5e42b0;
+  margin-top: 89px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer_app_store:hover {
+  box-shadow: 0 0 30px #cc0000; 
+}
+
+.footer_app_store_logo {
+  margin-right: 11px;
+  margin-top: 5px;
+}
+
+.footer_app_store_logo_img {
+  fill: #ffffff;
+  width: 20px;
+  height: 24px;
+}
+
+.footer_button_text {
+  margin-left: 0;
+}
+
+.footer_button_text_2 {
+  margin-left: 0;
+  margin-right: 110px;
+}
+
+.footer_google_play {
+  width: 280px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #5e42b0;
+  margin-bottom: 84px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer_google_play:hover {
+  box-shadow: 0 0 30px #cc0000; 
+}
+
+.footer_google_play_logo {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.footer_google_play_logo_img {
+  fill: #ffffff;
+  width: 21px;
+  height: 20px;
+}
+
+.footer_app_store_text_1,
+.footer_google_play_text_1 {
+  font-family: "Open Sans";
+  font-size: 7px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 9px;
+}
+
+.footer_app_store_text_2,
+.footer_google_play_text_2 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 7px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.footer_logo {
+  width: 130px;
+  height: 35px;
+  margin-top: 62px;
+  margin-bottom: 10px;
+ } 
+
+ .footer_logo_icon {
+  fill: #ffffff;
+ }
