@@ -25,6 +25,7 @@ body {
 
 .header {
   max-width: 100%;
+  min-height: 568px;
   background-image: url(../images/football_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,10 +34,20 @@ body {
   flex-wrap: wrap;
 }
 
+.header:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(10,0,180,0.7);
+  width: 100vw;
+  min-height: 613px;
+  z-index: 1;
+}
+
 .header_logo {
   width: 130px;
   height: 35px;
   margin-top: 32px;
+  z-index: 2;
 }
 
 .header_logo_icon {
@@ -46,15 +57,18 @@ body {
 .header_title {
   width: 100%;
   margin-top: 136px;
+  z-index: 2;
 }
 
 .header_text_1 {
   display: block;
   font-family: "Open Sans";
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
   margin-left: 20px;
+  box-sizing: border-box;
+  z-index: 2;
 }
 
 .header_text_2 {
@@ -62,9 +76,11 @@ body {
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 30px;
   margin-left: 64px;
+  box-sizing: border-box;
+  z-index: 2;
 }
 
 .header_app_store {
@@ -78,30 +94,36 @@ body {
   flex-wrap: wrap;
   cursor: pointer;
   transition: 0.3s;
+  z-index: 2;
 }
 
 .header_app_store:hover {
-  box-shadow: 0 0 30px #cc0000; 
+  box-shadow: 0 0 30px #cc0000;
+  z-index: 2; 
 }
 
 .header_app_store_logo {
   margin-right: 11px;
   margin-top: 5px;
+  z-index: 2;
 }
 
 .header_app_store_logo_img {
   fill: #ffffff;
   width: 20px;
   height: 24px;
+  z-index: 2;
 }
 
 .header_button_text {
   margin-left: 0;
+  z-index: 2;
 }
 
 .header_button_text_2 {
   margin-left: 0;
   margin-right: 110px;
+  z-index: 2;
 }
 
 .header_google_play {
@@ -114,21 +136,25 @@ body {
   flex-wrap: wrap;
   cursor: pointer;
   transition: 0.3s;
+  z-index: 2;
 }
 
 .header_google_play:hover {
-  box-shadow: 0 0 30px #cc0000; 
+  box-shadow: 0 0 30px #cc0000;
+  z-index: 2; 
 }
 
 .header_google_play_logo {
   margin-right: 10px;
   margin-top: 8px;
+  z-index: 2;
 }
 
 .header_google_play_logo_img {
   fill: #ffffff;
   width: 21px;
   height: 20px;
+  z-index: 2;
 }
 
 .header_app_store_text_1,
@@ -138,6 +164,7 @@ body {
   color: #ffffff;
   text-align: left;
   margin-top: 9px;
+  z-index: 2;
 }
 
 .header_app_store_text_2,
@@ -147,6 +174,7 @@ body {
   font-size: 7px;
   color: #ffffff;
   text-align: left;
+  z-index: 2;
 }
 
 .container_1 {
@@ -472,6 +500,7 @@ body {
 
 .footer {
   max-width: 100%;
+  min-height: 606px;
   background-image: url(../images/game_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -480,25 +509,36 @@ body {
   flex-wrap: wrap;
 }
 
+.footer:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(10,0,180,0.7);
+  width: 100vw;
+  min-height: 606px;
+  z-index: 1;
+}
+
 .footer_icon {
-  width: 94px;
-  height: 94px;
+  width: 74px;
+  height: 74px;
   margin-top: 99px;
   background-color: #7151cf;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .footer_icon_1 {
   width: 60px;
   height: 50px; 
   fill: #ffffff;
-  transform: translate(27%, 45%);
+  transform: translate(10%, 25%);
+  z-index: 2;
 }
 
 .footer_title {
   width: 100%;
-  margin-top: 136px;
   margin-top: 59px;
+  z-index: 2;
 }
 
 .footer_text_1 {
@@ -506,18 +546,22 @@ body {
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: bold;
-  font-size: 26px;
+  font-size: 30px;
   text-align: center;
+  box-sizing: border-box;
+  z-index: 2;
 }
 
 .footer_text_2 {
   display: block;
   color: #9b8ec1;
-  font-size: 11px;
+  font-size: 16px;
   font-family: "Open Sans";
   font-weight: bold;
-  margin-top: 13px;
+  margin-top: 23px;
   text-align: center;
+  box-sizing: border-box;
+  z-index: 2;
 }
 
 .footer_app_store {
@@ -525,36 +569,42 @@ body {
   height: 35px;
   border-radius: 17px;
   background-color: #5e42b0;
-  margin-top: 89px;
+  margin-top: 76px;
   margin-bottom: 14px;
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
   transition: 0.3s;
+  z-index: 2;
 }
 
 .footer_app_store:hover {
-  box-shadow: 0 0 30px #cc0000; 
+  box-shadow: 0 0 30px #cc0000;
+  z-index: 2; 
 }
 
 .footer_app_store_logo {
   margin-right: 11px;
   margin-top: 5px;
+  z-index: 2;
 }
 
 .footer_app_store_logo_img {
   fill: #ffffff;
   width: 20px;
   height: 24px;
+  z-index: 2;
 }
 
 .footer_button_text {
   margin-left: 0;
+  z-index: 2;
 }
 
 .footer_button_text_2 {
   margin-left: 0;
   margin-right: 110px;
+  z-index: 2;
 }
 
 .footer_google_play {
@@ -562,26 +612,29 @@ body {
   height: 35px;
   border-radius: 17px;
   background-color: #5e42b0;
-  margin-bottom: 84px;
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
   transition: 0.3s;
+  z-index: 2;
 }
 
 .footer_google_play:hover {
-  box-shadow: 0 0 30px #cc0000; 
+  box-shadow: 0 0 30px #cc0000;
+  z-index: 2; 
 }
 
 .footer_google_play_logo {
   margin-right: 10px;
   margin-top: 8px;
+  z-index: 2;
 }
 
 .footer_google_play_logo_img {
   fill: #ffffff;
   width: 21px;
   height: 20px;
+  z-index: 2;
 }
 
 .footer_app_store_text_1,
@@ -591,6 +644,7 @@ body {
   color: #ffffff;
   text-align: left;
   margin-top: 9px;
+  z-index: 2;
 }
 
 .footer_app_store_text_2,
@@ -600,15 +654,19 @@ body {
   font-size: 7px;
   color: #ffffff;
   text-align: left;
+  z-index: 2;
 }
+
 
 .footer_logo {
   width: 130px;
-  height: 35px;
-  margin-top: 62px;
-  margin-bottom: 10px;
+  height: 38px;
+  margin-top: 82px; 
+  margin-bottom: 8px;
+  z-index: 2;
  } 
 
  .footer_logo_icon {
   fill: #ffffff;
+  z-index: 2;
  }
