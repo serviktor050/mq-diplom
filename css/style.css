@@ -18,11 +18,6 @@
 font-weight: 400;
 }
 
-
-body {
-  width: 320px;
-}
-
 .header {
   max-width: 100%;
   min-height: 568px;
@@ -191,7 +186,7 @@ body {
 .content_title,
 .content_title_2 {
   margin-top: 22px; 
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 .content_text_1,
@@ -202,13 +197,6 @@ body {
   font-weight: bold;
   font-size: 36px;
   color: #e7e7e7;
-  margin-left: 20px;
-}
-
-.img_sport_football {
-  max-width: 192px; 
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .first_title,
@@ -267,19 +255,25 @@ body {
 }
 
 .img_sport_football {
+  background: url(../images/footballer_192.png);
+  background-repeat: no-repeat;
   position: relative; 
-  min-width: 192px; 
-  height: 225px;
-  margin-left: auto;
+  width: 100%; 
+  min-height: 281px;
+  margin-left: 70px;
   margin-right: auto;
+  margin-bottom: -50px;
 }
 
 .img_sport_basketball {
+  background: url(../images/basketballer_302.png);
+  background-repeat: no-repeat;
   position: relative; 
-  min-width: 302px; 
-  height: 225px;
+  width: 100%; 
+  min-height: 248px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -25px;
 }
 
 .first_title_text,
@@ -398,7 +392,7 @@ body {
   width: 70px; 
   height: 70px;
   margin-left: 20px;
-  bottom: 58px; 
+  top: 18px;  
   text-align: center;
 }
 
@@ -428,32 +422,35 @@ body {
 }
 
 .first_photo {
-  flex: 0 0 320px;
+  flex: 1 1 320px;
   min-height: 350px;
   background-image: url(../images/be-active_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e2f1fa;
+  margin-bottom: -70px;
 }
 
 .second_photo {
   
-  flex: 0 0 320px;
+  flex: 1 1 320px;
   min-height: 350px;
   background-image: url(../images/find-contact_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #c64847;
+  margin-bottom: -70px;
 }
 
 .third_photo {
   
-  flex: 0 0 320px;
+  flex: 1 1 320px;
   min-height: 350px;
   background-image: url(../images/work-it_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #7193c0;
+  margin-bottom: -70px;
 }
 
 .text_block_1 {
@@ -669,4 +666,388 @@ body {
  .footer_logo_icon {
   fill: #ffffff;
   z-index: 2;
+ }
+
+/*Версия для планшета*/
+
+
+ @media screen and (min-width: 641px) and (max-width: 960px) {
+
+.header {
+  min-height: 975px;
+}
+
+.header:before {
+  min-height: 975px;
+}
+
+.header_logo {
+  width: 205px;
+  height: 56px;
+  margin-top: 39px;
+}
+
+.header_title {
+  margin-top: 182px;
+}
+
+.header_text_1 {
+  font-size: 46px;
+  margin-left: 90px;
+}
+
+.header_text_2 {
+  font-size: 46px;
+  margin-top: 32px;
+  margin-left: 198px;
+}
+
+.header_app_store,
+.header_google_play {
+  width: 311px;
+  height: 77px;
+  border-radius: 40px;
+  margin-top: 312px;
+  margin-bottom: 91px;
+}
+
+.header_app_store_logo {
+  margin-right: 29px;
+  margin-top: 20px;
+}
+
+.header_app_store_logo_img {
+  width: 36px;
+  height: 32px;
+}
+
+.header_button_text {
+  margin-left: 0;
+}
+
+.header_button_text_2 {
+  margin-left: 0;
+  margin-right: 110px;
+}
+
+.header_google_play_logo {
+  margin-right: 29px;
+  margin-top: 15px;
+}
+
+.header_google_play_logo_img {
+  width: 41px;
+  height: 44px;
+}
+
+.header_app_store_text_1,
+.header_google_play_text_1 {
+  font-size: 11px;
+  margin-top: 22px;
+}
+
+.header_app_store_text_2,
+.header_google_play_text_2 {
+  font-size: 11px;
+}
+
+.content_title {
+  margin-top: 87px; 
+  margin-left: 292px;
+  margin-bottom: -70px;
+}
+
+.content_title_2 {
+  margin-top: 88px; 
+  margin-left: 32px;
+  margin-bottom: -120px;
+
+}
+
+.content_text_1,
+.content_text_2 {
+  font-size: 67px;
+}
+
+.first_title,
+.second_title,
+.third_title {
+  margin-top: 42px;
+  margin-left: 292px; 
+}
+
+.title_icon_full {
+  width: 22px;
+  height: 20px;
+  margin-left: 0px;
+  margin-right: 13px;
+}
+
+.title_icon {
+  font-size: 14px;
+}
+
+.title_icon_graphic {
+  width: 15px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.title_icon_graphic_2 {
+  width: 19px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.title_icon_3 {
+  font-size: 14px;
+}
+
+.title_icon_graphic_3 {
+  width: 19px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.img_sport_football {
+  background: url(../images/footballer_497.png);
+  background-repeat: no-repeat;
+  min-height: 699px;
+  margin-left: -160px;
+  margin-bottom: -600px;
+}
+
+.img_sport_basketball {
+  background: url(../images/basketballer_436.png);
+  background-repeat: no-repeat;
+  min-height: 565px;
+  margin-left: 332px;
+  margin-right: 0;
+  margin-bottom: -420px;
+}
+
+.first_title_text,
+.second_title_text,
+.third_title_text {
+  font-size: 24px;
+}
+
+.first_description,
+.second_description,
+.third_description {
+  width: 100%;
+  min-height: 179px;
+}
+
+.first_description p,
+.second_description p,
+.third_description p{
+  box-sizing: border-box;
+  margin-left: 272px;
+}
+
+.first_description_text,
+.second_description_text,
+.third_description_text {
+  margin-right: 48px;
+  margin-top: 28px;
+}
+
+.first_content_description_2,
+.second_content_description_2,
+.third_content_description_2 {
+  min-height: 181px;
+}
+
+.first_title_2,
+.second_title_2,
+.third_title_2 {
+  margin-right: 310px;
+  margin-left: 32px;
+}
+
+.first_title_text_2,
+.second_title_text_2,
+.third_title_text_2 {
+  font-size: 24px;
+}
+
+.first_description_text_2,
+.second_description_text_2,
+.third_description_text_2 {
+
+  margin-left: 32px;
+  margin-right: 310px;
+  margin-top: 28px;
+}
+
+.first_container,
+.second_container,
+.third_container
+ {
+  width: 768px;
+}
+
+.numder {
+  width: 116px; 
+  height: 116px;
+  margin-left: 32px;
+  top: 36px;
+}
+
+.number_icon_full {
+  width: 26px;
+  height: 32px;
+  margin-left: 44px;
+  margin-top: 44px;
+}
+
+.numder_icon {
+  font-size: 18px;
+}
+
+.numder_icon_graphic {
+  width: 22px;
+  height: 4px;
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+.first_photo {
+  flex: 1 1 768px;
+  min-height: 583px;
+  background-image: url(../images/be-active_960.jpg);
+  margin-bottom: -116px;
+}
+
+.second_photo {
+  flex: 1 1 768px;
+  min-height: 583px;
+  background-image: url(../images/find-contact_960.jpg);
+  margin-bottom: -116px;
+}
+
+.third_photo {
+  flex: 1 1 768px;
+  min-height: 583px;
+  background-image: url(../images/work-it_960.jpg);
+  margin-bottom: -116px;
+}
+
+.text_block_1 {
+  min-height: 337px;
+}
+
+.text_block_2 {
+  min-height: 334px;
+}
+
+.text_block_3 {
+  min-height: 369px;
+}
+
+.text_block_title {
+  margin-left: 32px;
+  margin-top: 92px;
+  font-size: 58px;
+}
+
+.first_description_text_block,
+.second_description_text_block,
+.third_description_text_block {
+  margin-left: 32px;
+  margin-right: 20px;
+  margin-top: 39px;
+  font-size: 14px;
+}
+
+.footer {
+  min-height: 958px;
+}
+
+.footer:before {
+  min-height: 1045px;
+}
+
+.footer_icon {
+  width: 136px;
+  height: 136px;
+  margin-top: 127px;
+  border-radius: 30px;
+}
+
+.footer_icon_1 {
+  width: 86px;
+  height: 104px; 
+  transform: translate(30%, 15%);
+}
+
+.footer_title {
+  margin-top: 82px;
+}
+
+.footer_text_1 {
+  font-size: 60px;
+}
+
+.footer_text_2 {
+  font-size: 27px;
+  margin-top: 27px;
+}
+
+.footer_app_store,
+.footer_google_play {
+  width: 311px;
+  height: 77px;
+  border-radius: 40px;
+  margin-top: 288px;
+  margin-bottom: 55px;
+}
+
+.footer_app_store_logo {
+  margin-right: 29px;
+  margin-top: 20px;
+}
+
+.footer_app_store_logo_img {
+  width: 36px;
+  height: 32px;
+}
+
+.footer_button_text {
+  margin-left: 0;
+}
+
+.footer_button_text_2 {
+  margin-left: 0;
+  margin-right: 110px;
+}
+
+.footer_google_play_logo {
+  margin-right: 29px;
+  margin-top: 15px;
+}
+
+.footer_google_play_logo_img {
+  width: 41px;
+  height: 44px;
+}
+
+.footer_app_store_text_1,
+.footer_google_play_text_1 {
+  font-size: 11px;
+  margin-top: 22px;
+}
+
+.footer_app_store_text_2,
+.footer_google_play_text_2 {
+  font-size: 11px;
+}
+
+.footer_logo {
+  width: 204px;
+  height: 56px;
+  margin-top: 55px; 
+  margin-bottom: 23px;
+ } 
  }
