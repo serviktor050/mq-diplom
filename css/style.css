@@ -680,12 +680,8 @@ font-weight: 400;
 
  @media screen and (min-width: 641px) and (max-width: 960px) {
 
-.header {
-  min-height: 975px;
-}
-
 .header:before {
-  min-height: 975px;
+  height: 1061px;
 }
 
 .header_logo {
@@ -700,13 +696,23 @@ font-weight: 400;
 
 .header_text_1 {
   font-size: 46px;
-  margin-left: 90px;
+  padding-left: 90px;
 }
 
 .header_text_2 {
   font-size: 46px;
   margin-top: 32px;
-  margin-left: 198px;
+  padding-left: 198px;
+}
+
+.header_button_full {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 312px;
+  margin-bottom: 91px;
+  z-index: 2;
 }
 
 .header_app_store,
@@ -714,8 +720,6 @@ font-weight: 400;
   width: 311px;
   height: 77px;
   border-radius: 40px;
-  margin-top: 312px;
-  margin-bottom: 91px;
 }
 
 .header_app_store_logo {
@@ -827,7 +831,7 @@ font-weight: 400;
   background: url(../images/basketballer_436.png);
   background-repeat: no-repeat;
   min-height: 565px;
-  margin-left: 332px;
+  margin-left: 55%;
   margin-right: 0;
   margin-bottom: -420px;
 }
@@ -893,7 +897,7 @@ font-weight: 400;
 .second_container,
 .third_container
  {
-  width: 768px;
+  width: 100%;
 }
 
 .numder {
@@ -922,21 +926,18 @@ font-weight: 400;
 }
 
 .first_photo {
-  flex: 1 1 768px;
   min-height: 583px;
   background-image: url(../images/be-active_960.jpg);
   margin-bottom: -116px;
 }
 
 .second_photo {
-  flex: 1 1 768px;
   min-height: 583px;
   background-image: url(../images/find-contact_960.jpg);
   margin-bottom: -116px;
 }
 
 .third_photo {
-  flex: 1 1 768px;
   min-height: 583px;
   background-image: url(../images/work-it_960.jpg);
   margin-bottom: -116px;
@@ -971,12 +972,8 @@ font-weight: 400;
   font-size: 16px;
 }
 
-.footer {
-  min-height: 958px;
-}
-
 .footer:before {
-  min-height: 1045px;
+  min-height: 1058px;
 }
 
 .footer_icon {
@@ -1005,13 +1002,21 @@ font-weight: 400;
   margin-top: 27px;
 }
 
+.footer_button_full {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 288px;
+  margin-bottom: 55px;
+  z-index: 2;
+}
+
 .footer_app_store,
 .footer_google_play {
   width: 311px;
   height: 77px;
   border-radius: 40px;
-  margin-top: 288px;
-  margin-bottom: 55px;
 }
 
 .footer_app_store_logo {
