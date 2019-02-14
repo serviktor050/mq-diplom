@@ -20,21 +20,20 @@ font-weight: 400;
 
 .header {
   max-width: 100%;
-  min-height: 568px;
   background-image: url(../images/football_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #171837;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .header:before {
   content: "";
   position: absolute;
   background-color: rgba(0,5,55,0.9);
-  width: 100vw;
-  min-height: 613px;
+  width: 100%;
+  height: 613px;
   z-index: 1;
 }
 
@@ -61,7 +60,7 @@ font-weight: 400;
   font-weight: bold;
   font-size: 30px;
   color: #ffffff;
-  margin-left: 20px;
+  padding-left: 20px;
   box-sizing: border-box;
   z-index: 2;
 }
@@ -73,8 +72,16 @@ font-weight: 400;
   font-weight: bold;
   font-size: 30px;
   margin-top: 30px;
-  margin-left: 64px;
+  padding-left: 64px;
   box-sizing: border-box;
+  z-index: 2;
+}
+
+.header_button_full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 89px;
   z-index: 2;
 }
 
@@ -83,7 +90,6 @@ font-weight: 400;
   height: 35px;
   border-radius: 17px;
   background-color: #5e42b0;
-  margin-top: 89px;
   margin-bottom: 14px;
   display: flex;
   flex-wrap: wrap;
@@ -260,8 +266,7 @@ font-weight: 400;
   position: relative; 
   width: 100%; 
   min-height: 281px;
-  margin-left: 70px;
-  margin-right: auto;
+  margin-left: 20%;
   margin-bottom: -50px;
 }
 
@@ -271,8 +276,6 @@ font-weight: 400;
   position: relative; 
   width: 100%; 
   min-height: 248px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: -25px;
 }
 
@@ -380,8 +383,8 @@ font-weight: 400;
 .second_container,
 .third_container {
   display: flex;
-  width: 320px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
 }
 
  .numder {
@@ -421,8 +424,8 @@ font-weight: 400;
 }
 
 .first_photo {
-  flex: 1 1 320px;
-  min-height: 350px;
+  width: 100%;
+  height: 352px;
   background-image: url(../images/be-active_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -431,9 +434,8 @@ font-weight: 400;
 }
 
 .second_photo {
-  
-  flex: 1 1 320px;
-  min-height: 350px;
+  width: 100%;
+  height: 352px;
   background-image: url(../images/find-contact_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -442,9 +444,8 @@ font-weight: 400;
 }
 
 .third_photo {
-  
-  flex: 1 1 320px;
-  min-height: 350px;
+  width: 100%;
+  height: 352px;
   background-image: url(../images/work-it_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -499,20 +500,19 @@ font-weight: 400;
 
 .footer {
   max-width: 100%;
-  min-height: 606px;
   background-image: url(../images/game_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #171737;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer:before {
   content: "";
   position: absolute;
   background-color: rgba(0,5,55,0.9);
-  width: 100vw;
+  width: 100%;
   min-height: 606px;
   z-index: 1;
 }
@@ -563,12 +563,19 @@ font-weight: 400;
   z-index: 2;
 }
 
+.footer_button_full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 76px;
+  z-index: 2;
+}
+
 .footer_app_store {
   width: 280px;
   height: 35px;
   border-radius: 17px;
   background-color: #5e42b0;
-  margin-top: 76px;
   margin-bottom: 14px;
   display: flex;
   flex-wrap: wrap;
