@@ -517,6 +517,10 @@ font-weight: 400;
   z-index: 1;
 }
 
+.footer_icon_and_title {
+  z-index: 2;
+}
+
 .footer_icon {
   width: 74px;
   height: 74px;
@@ -675,6 +679,15 @@ font-weight: 400;
   fill: #ffffff;
   z-index: 2;
  }
+
+
+
+
+
+
+
+
+
 
 /*Версия для планшета*/
 
@@ -976,6 +989,10 @@ font-weight: 400;
   min-height: 1058px;
 }
 
+.footer_icon_and_title {
+  z-index: 2;
+}
+
 .footer_icon {
   width: 136px;
   height: 136px;
@@ -1067,17 +1084,25 @@ font-weight: 400;
  } 
  }
 
+
+
+
+
+
+
+
+
+
  /*Десктопная версия*/
 
- @media screen and (min-width: 961px) and (max-width: 1921px) {
+ @media screen and (min-width: 961px) and (max-width: 1920px),(min-width: 1921px) {
 
 .header {
-  min-height: 960px;
   background-image: url(../images/football_1280.jpg);
 }
 
 .header:before {
-  min-height: 1007px;
+  min-height: 1010px;
 }
 
 .header_logo {
@@ -1092,31 +1117,40 @@ font-weight: 400;
 
 .header_text_1 {
   font-size: 66px;
-  margin-left: 192px;
+  padding-left: 10%;
 }
 
 .header_text_2 {
   font-size: 66px;
   margin-top: 28px;
-  margin-left: 644px;
+  padding-left: 33.54%;
+}
+
+.header_button_full {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 222px;
+  margin-bottom: 110px;
+  z-index: 2;
 }
 
 .header_app_store {
   width: 312px;
   height: 78px;
   border-radius: 40px;
-  margin-top: 222px;
-  margin-bottom: 110px;
-  margin-left: 620px;
+  margin-left: 32,29%;
+  margin-right: 2.6%; 
+  margin-bottom: 0px;
 }
 
 .header_google_play {
   width: 312px;
   height: 78px;
   border-radius: 40px;
-  margin-top: 222px;
-  margin-bottom: 110px;
-  margin-right: 628px;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 .header_app_store_logo {
@@ -1161,12 +1195,12 @@ font-weight: 400;
 
 .content_title {
   margin-top: 116px; 
-  margin-left: 1008px;
+  margin-left: 52.5%;
 }
 
 .content_title_2 {
   margin-top: 119px; 
-  margin-left: 192px;
+  margin-left: 10%;
 }
 
 .content_text_1,
@@ -1178,7 +1212,7 @@ font-weight: 400;
   background: url(../images/footballer_566.png);
   background-repeat: no-repeat;
   min-height: 908px;
-  margin-left: 380px;
+  margin-left: 20.52%;
   margin-top: -170px;
   margin-bottom: -700px;
 }
@@ -1188,7 +1222,7 @@ font-weight: 400;
   background-repeat: no-repeat;
   min-height: 815px;
   margin-top: -175px; 
-  margin-left: 810px;
+  margin-left: 42.19%;
   margin-right: 0;
   margin-bottom: -550px;
 }
@@ -1197,7 +1231,7 @@ font-weight: 400;
 .second_title,
 .third_title {
   margin-top: 60px;
-  margin-left: 1008px; 
+  margin-left: 52.5%; 
 }
 
 .title_icon_full {
@@ -1237,13 +1271,14 @@ font-weight: 400;
 .second_description p,
 .third_description p{
   box-sizing: border-box;
-  margin-left: 1008px;
+  margin-left: 52.5%;
 }
 
 .first_description_text,
 .second_description_text,
 .third_description_text {
-  margin-right: 198px;
+  margin-right: 10%;
+  margin-left: 11%;
   margin-top: 30px;
   font-size: 16px;
 }
@@ -1257,7 +1292,7 @@ font-weight: 400;
 .first_title_2,
 .second_title_2,
 .third_title_2 {
-  margin-left: 192px;
+  margin-left: 10%;
 }
 
 .first_title_text_2,
@@ -1269,15 +1304,17 @@ font-weight: 400;
 .first_description_text_2,
 .second_description_text_2,
 .third_description_text_2 {
-  margin-left: 192px;
+  width: 39.27%;
+  margin-left: 10%;
   margin-top: 30px;
   font-size: 16px;
-  width: 754px;
+ 
 }
 
 .first_container,
 .third_container {
   width: 100%;
+  flex-direction: row;
 }
 
 .second_container {
@@ -1357,46 +1394,55 @@ font-weight: 400;
 
 .text_block_title_1,
 .text_block_title_3 {
-  margin-left: 126px;
+  margin-left: 12%;
   margin-top: 261px;
   font-size: 58px;
 }
 
 .text_block_title_2 {
-  margin-left: 192px;
+  margin-left: 10%;
   margin-top: 261px;
   font-size: 58px;
 }
 
 .first_description_text_block,
 .third_description_text_block {
-  margin-left: 126px;
-  margin-right: 200px;
+  margin-left: 12%;
+  margin-right: 10.42%;
   margin-top: 78px;
   font-size: 18px;
 }
 
 .second_description_text_block {
-  margin-left: 192px;
-  margin-right: 200px;
+  margin-left: 10%;
+  margin-right: 10.42%;
   margin-top: 78px;
   font-size: 18px;
 }
 
 .footer {
-  min-height: 1150px;
   background-image: url(../images/game_1280.jpg);
 }
 
 .footer:before {
-  min-height: 1150px;
+  height: 1209px;
+}
+
+.footer_icon_and_title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 45.10%;
+  margin-top: 229px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
 }
 
 .footer_icon {
   width: 136px;
   height: 136px;
-  margin-top: 229px;
-  margin-left: 526px;
+  margin-left: 0;
   margin-right: 0;
   border-radius: 30px;
 }
@@ -1408,10 +1454,10 @@ font-weight: 400;
 }
 
 .footer_title {
-  width: 500px;
+  width: 77.6%;
   margin-left: 38px;
   margin-right: 0;
-  margin-top: 251px;
+  margin-top: 105px;
 }
 
 .footer_text_1 {
@@ -1425,23 +1471,30 @@ font-weight: 400;
   text-align: left;
 }
 
+.footer_button_full {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 288px;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
 .footer_app_store {
   width: 311px;
   height: 77px;
   border-radius: 40px;
-  margin-left: 620px;
-  margin-right: 25px;
-  margin-top: 288px;
-  margin-bottom: 55px;
+  margin-left: 32,29%;
+  margin-right: 2.6%; 
 }
 
 .footer_google_play {
   width: 311px;
   height: 77px;
   border-radius: 40px;
-  margin-left: 25px;
-  margin-top: 288px;
-  margin-bottom: 55px;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 .footer_app_store_logo {
@@ -1487,7 +1540,8 @@ font-weight: 400;
 .footer_logo {
   width: 196px;
   height: 54px;
-  margin-left: 860px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 261px;
   margin-bottom: 51px;
  } 
