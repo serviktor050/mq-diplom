@@ -267,16 +267,17 @@ header {
 .img_sport_football {
   background: url(../images/footballer_192.png);
   background-repeat: no-repeat;
+  background-position: center;
   position: relative; 
   width: 100%; 
   min-height: 281px;
-  margin-left: 20%;
   margin-bottom: -50px;
 }
 
 .img_sport_basketball {
   background: url(../images/basketballer_302.png);
   background-repeat: no-repeat;
+  background-position: center;
   position: relative; 
   width: 100%; 
   min-height: 248px;
