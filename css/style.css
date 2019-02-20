@@ -18,6 +18,10 @@
 font-weight: 400;
 }
 
+header {
+  height: 613px;
+}
+
 .header {
   max-width: 100%;
   background-image: url(../images/football_767.jpg);
@@ -28,12 +32,12 @@ font-weight: 400;
   flex-direction: column;
 }
 
-.header:before {
-  content: "";
-  position: absolute;
+.header_color {
+  position: relative;
+  top: -100%;
   background-color: rgba(0,5,55,0.9);
   width: 100%;
-  height: 613px;
+  height: 100%;
   z-index: 1;
 }
 
@@ -498,6 +502,10 @@ font-weight: 400;
   font-size: 12px;
 }
 
+footer {
+  height: 606px;
+}
+
 .footer {
   max-width: 100%;
   background-image: url(../images/game_767.jpg);
@@ -508,12 +516,12 @@ font-weight: 400;
   flex-direction: column;
 }
 
-.footer:before {
-  content: "";
-  position: absolute;
+.footer_color {
+  position: relative;
+  margin-top: -606px; 
   background-color: rgba(0,5,55,0.9);
   width: 100%;
-  min-height: 606px;
+  height: 100%;
   z-index: 1;
 }
 
@@ -684,9 +692,8 @@ font-weight: 400;
 
  @media screen and (min-width: 641px) and (max-width: 960px) {
 
-.header:before {
-
-  height: 997px;
+header {
+  height: 1059px;
 }
 
 .header_logo {
@@ -977,8 +984,12 @@ font-weight: 400;
   font-size: 16px;
 }
 
-.footer:before {
-  min-height: 1058px;
+footer {
+  height: 1059px;
+}
+
+.footer_color {
+  margin-top: -1059px; 
 }
 
 .footer_icon_and_title {
@@ -1082,6 +1093,10 @@ font-weight: 400;
 
 body {
   width: 1920px;
+}
+
+header {
+  height: 1010px;
 }
 
 .header {
@@ -1408,13 +1423,16 @@ body {
   font-size: 18px;
 }
 
+footer {
+  height: 1209px;
+}
+
 .footer {
   background-image: url(../images/game_1280.jpg);
 }
 
-.footer:before {
-  height: 1209px;
-  width: 1920px;
+.footer_color {
+  margin-top: -1209px; 
 }
 
 .footer_icon_and_title {
