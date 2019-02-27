@@ -449,7 +449,9 @@ header {
   width: 100%;
 }
 
- .numder {
+ .numder_1,
+ .numder_2,
+ .numder_3 {
   display: flex;
   position: relative;
   background-color: #5e42b0;
@@ -759,28 +761,31 @@ footer {
  @media screen and (min-width: 641px) and (max-width: 960px) {
 
 header {
-  height: 1059px;
+  height: 959px;
 }
 
 .header_logo {
   width: 205px;
   height: 56px;
   margin-top: 39px;
+  margin-right: 35%;
 }
 
 .header_title {
-  margin-top: 182px;
+  margin-top: 160px;
 }
 
 .header_text_1 {
-  font-size: 46px;
-  padding-left: 90px;
+  font-size: 63px;
+  padding-left: 85px;
+  letter-spacing: 3.8px;
 }
 
 .header_text_2 {
-  font-size: 46px;
-  margin-top: 32px;
-  padding-left: 198px;
+  font-size: 63px;
+  margin-top: -3px;
+  padding-left: 193px;
+  letter-spacing: 4px;
 }
 
 .header_button_full {
@@ -788,26 +793,34 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 312px;
-  margin-bottom: 91px;
+  margin-top: 302px;
+  margin-bottom: 8px;
   z-index: 2;
 }
 
-.header_app_store,
+.header_app_store {
+  width: 311px;
+  height: 77px;
+  border-radius: 40px;
+  margin-left: 8%;
+}
+
 .header_google_play {
   width: 311px;
   height: 77px;
   border-radius: 40px;
+  margin-right: 5%;
 }
 
 .header_app_store_logo {
-  margin-right: 29px;
-  margin-top: 20px;
+  margin-right: 22px;
+  margin-top: 16px;
+  margin-left: 30px;
 }
 
 .header_app_store_logo_img {
-  width: 36px;
-  height: 32px;
+  width: 50px;
+  height: 45px;
 }
 
 .header_button_text {
@@ -816,12 +829,12 @@ header {
 
 .header_button_text_2 {
   margin-left: 0;
-  margin-right: 110px;
 }
 
 .header_google_play_logo {
   margin-right: 29px;
-  margin-top: 15px;
+  margin-top: 19px;
+  margin-left: 52px;
 }
 
 .header_google_play_logo_img {
@@ -829,70 +842,86 @@ header {
   height: 44px;
 }
 
-.header_app_store_text_1,
+.header_app_store_text_1 {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-top: 22px;
+}
+
 .header_google_play_text_1 {
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 22px;
 }
 
 .header_app_store_text_2,
 .header_google_play_text_2 {
-  font-size: 11px;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  margin-top: -3px;
 }
 
 .content_title {
-  margin-top: 87px;
+  margin-top: 58px;
   margin-left: 292px;
   margin-bottom: -70px;
 }
 
 .content_title_2 {
-  margin-top: 88px;
-  margin-left: 32px;
-  margin-bottom: -120px;
+  margin-top: 58px;
+  margin-left: 29px;
+  margin-bottom: -133px;
 }
 
 .content_text_1,
 .content_text_2 {
-  font-size: 67px;
+  font-size: 80px;
+  letter-spacing: 1px;
 }
 
-.first_title,
-.second_title,
+.first_title {
+  margin-top: 2px;
+  margin-left: 290px;
+}
+
+.second_title {
+  margin-top: 32px;
+  margin-left: 290px;
+}
+
 .third_title {
-  margin-top: 42px;
-  margin-left: 292px;
+  margin-top: 33px;
+  margin-left: 290px;
 }
 
 .title_icon_full {
   width: 22px;
   height: 20px;
   margin-left: 0px;
-  margin-right: 13px;
+  margin-right: 10px;
 }
 
 .title_icon {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .title_icon_graphic {
-  width: 15px;
+  width: 22px;
   height: 5px;
   border-radius: 3px;
 }
 
 .title_icon_graphic_2 {
-  width: 19px;
+  width: 22px;
   height: 5px;
   border-radius: 3px;
 }
 
 .title_icon_3 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .title_icon_graphic_3 {
-  width: 19px;
+  width: 22px;
   height: 5px;
   border-radius: 3px;
 }
@@ -901,27 +930,39 @@ header {
   background: url(../images/footballer_497.png);
   background-repeat: no-repeat;
   min-height: 699px;
-  margin-left: -160px;
+  margin-left: -162px;
   margin-bottom: -600px;
+  margin-top: -2px;
 }
 
 .img_sport_basketball {
   background: url(../images/basketballer_436.png);
   background-repeat: no-repeat;
   min-height: 565px;
-  margin-left: 55%;
+  margin-left: 44%;
   margin-right: 0;
   margin-bottom: -420px;
+  margin-top: 6px;
 }
 
 .first_title_text,
 .second_title_text,
 .third_title_text {
-  font-size: 24px;
+  font-size: 31px;
+  letter-spacing: 2.3px;
 }
 
-.first_description,
-.second_description,
+.first_description {
+  width: 100%;
+  min-height: 149px;
+  background-color: #ffffff;
+}
+
+.second_description {
+  width: 100%;
+  min-height: 235px;
+}
+
 .third_description {
   width: 100%;
   min-height: 179px;
@@ -931,74 +972,133 @@ header {
 .second_description p,
 .third_description p{
   box-sizing: border-box;
-  margin-left: 272px;
 }
 
-.first_description_text,
-.second_description_text,
+.first_description_text {
+  margin-right: 30px;
+  margin-left: 292px;
+  margin-top: 18px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.7;
+}
+
+.second_description_text {
+  margin-right: 25px;
+  margin-left: 292px;
+  margin-top: 18px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.7;
+}
+
 .third_description_text {
-  margin-right: 48px;
-  margin-top: 28px;
-  font-size: 14px;
+  margin-right: 15px;
+  margin-left: 292px;
+  margin-top: 18px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.7;
 }
 
-.first_content_description_2,
+.first_content_description_2 {
+  min-height: 187px;
+  background-color: #ffffff;
+}
+
 .second_content_description_2,
 .third_content_description_2 {
   min-height: 181px;
 }
 
-.first_title_2,
+.first_title_2 {
+  margin-right: 310px;
+  margin-left: 32px;
+  margin-top: 11px;
+}
+
 .second_title_2,
 .third_title_2 {
   margin-right: 310px;
   margin-left: 32px;
+  margin-top: 34px;
 }
 
 .first_title_text_2,
 .second_title_text_2,
 .third_title_text_2 {
-  font-size: 24px;
+  font-size: 31px;
+  letter-spacing: 2.3px;
 }
 
-.first_description_text_2,
-.second_description_text_2,
-.third_description_text_2 {
-
+.first_description_text_2 {
   margin-left: 32px;
   margin-right: 310px;
-  margin-top: 28px;
-  font-size: 14px;
+  margin-top: 19px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.7;
+}
+
+.second_description_text_2 {
+  margin-left: 32px;
+  margin-right: 310px;
+  margin-top: 18px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.7;
+}
+
+.third_description_text_2 {
+  margin-left: 32px;
+  margin-right: 288px;
+  margin-top: 18px;
+  font-size: 16px;
+  letter-spacing: 1.9px;
+  line-height: 1.7;
 }
 
 .first_container,
 .second_container,
-.third_container
- {
+.third_container {
   width: 100%;
 }
 
-.numder {
+.numder_1 {
   width: 116px;
   height: 116px;
   margin-left: 32px;
   top: 36px;
 }
 
+.numder_2 {
+  width: 116px;
+  height: 116px;
+  margin-left: 32px;
+  top: 27px;
+}
+
+.numder_3 {
+  width: 116px;
+  height: 116px;
+  margin-left: 32px;
+  top: 28px;
+}
+
 .number_icon_full {
   width: 26px;
   height: 32px;
-  margin-left: 44px;
-  margin-top: 44px;
+  margin-left: 46px;
+  margin-top: 35px;
 }
 
 .numder_icon {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .numder_icon_graphic {
-  width: 22px;
-  height: 4px;
+  width: 26px;
+  height: 5px;
   margin-top: 4px;
   border-radius: 2px;
 }
@@ -1019,73 +1119,114 @@ header {
   min-height: 583px;
   background-image: url(../images/work-it_960.jpg);
   margin-bottom: -116px;
+  margin-top: 1px;
 }
 
 .text_block_1 {
   min-height: 337px;
+  margin-top: 0px;
 }
 
 .text_block_2 {
   min-height: 334px;
+  margin-top: 0px;
 }
 
 .text_block_3 {
   min-height: 369px;
 }
 
-.text_block_title_1,
-.text_block_title_2,
-.text_block_title_3 {
-  margin-left: 32px;
-  margin-top: 92px;
-  font-size: 58px;
+.text_block_title_1 {
+  margin-left: 27px;
+  margin-top: 65px;
+  font-size: 78px;
+  letter-spacing: 1.4px;
 }
 
-.first_description_text_block,
-.second_description_text_block,
+.text_block_title_2 {
+  margin-left: 25px;
+  margin-top: 55px;
+  font-size: 78px;
+  letter-spacing: 1.9px;
+}
+
+.text_block_title_3 {
+  margin-left: 32px;
+  margin-top: 52px;
+  font-size: 78px;
+  letter-spacing: 1.4px;
+}
+
+.first_description_text_block {
+  margin-left: 32px;
+  margin-right: 30px;
+  margin-top: 10px;
+  font-size: 22px;
+  letter-spacing: 2.1px;
+}
+
+.second_description_text_block {
+  margin-left: 34px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 23px;
+  letter-spacing: 1.7px;
+  line-height: 1.3;
+}
+
 .third_description_text_block {
   margin-left: 32px;
-  margin-right: 20px;
-  margin-top: 39px;
-  font-size: 16px;
+  margin-right: 24px;
+  margin-top: 10px;
+  font-size: 23px;
+  letter-spacing: 1.7px;
+  line-height: 1.25;
 }
 
 footer {
-  height: 1059px;
+  height: 953px;
 }
 
 .footer_color {
-  margin-top: -1059px;
+  margin-top: -953px;
 }
 
 .footer_icon_and_title {
+  width: 100%;
   z-index: 2;
 }
 
 .footer_icon {
-  width: 136px;
+  width: 127px;
   height: 136px;
-  margin-top: 127px;
+  margin-top: 122px;
+  margin-left: 43%;
   border-radius: 30px;
 }
 
 .footer_icon_1 {
-  width: 104px;
+  width: 120px;
   height: 86px;
-  transform: translate(15%, 30%);
+  transform: translate(0%, 28%);
 }
 
 .footer_title {
-  margin-top: 82px;
+  margin-top: 58px;
 }
 
 .footer_text_1 {
-  font-size: 60px;
+  font-size: 78px;
+  letter-spacing: 6.7px;
+  padding-left: 3%;
 }
 
 .footer_text_2 {
-  font-size: 27px;
-  margin-top: 27px;
+  margin-top: -7px;
+  font-size: 35px;
+  font-weight: 400;
+  padding-left: 3%;
+  letter-spacing: 0.8px;
+
 }
 
 .footer_button_full {
@@ -1093,26 +1234,33 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 288px;
-  margin-bottom: 55px;
+  margin-top: 279px;
   z-index: 2;
 }
 
-.footer_app_store,
+.footer_app_store {
+  width: 311px;
+  height: 77px;
+  border-radius: 40px;
+  margin-left: 8%;
+}
+
 .footer_google_play {
   width: 311px;
   height: 77px;
   border-radius: 40px;
+  margin-right: 5%;
 }
 
 .footer_app_store_logo {
-  margin-right: 29px;
-  margin-top: 20px;
+  margin-right: 22px;
+  margin-top: 16px;
+  margin-left: 30px;
 }
 
 .footer_app_store_logo_img {
-  width: 36px;
-  height: 32px;
+  width: 50px;
+  height: 45px;
 }
 
 .footer_button_text {
@@ -1121,12 +1269,12 @@ footer {
 
 .footer_button_text_2 {
   margin-left: 0;
-  margin-right: 110px;
 }
 
 .footer_google_play_logo {
   margin-right: 29px;
-  margin-top: 15px;
+  margin-top: 19px;
+  margin-left: 52px;
 }
 
 .footer_google_play_logo_img {
@@ -1134,32 +1282,36 @@ footer {
   height: 44px;
 }
 
-.footer_app_store_text_1,
-.footer_google_play_text_1 {
-  font-size: 11px;
+.footer_app_store_text_1 {
+  font-size: 14px;
+  letter-spacing: 0.5px;
   margin-top: 22px;
+}
+
+.footer_google_play_text_1 {
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .footer_app_store_text_2,
 .footer_google_play_text_2 {
-  font-size: 11px;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  margin-top: -3px;
 }
 
 .footer_logo {
   width: 204px;
   height: 56px;
-  margin-top: 55px;
-  margin-bottom: 23px;
+  margin-top: 42px;
+  margin-bottom: 22px;
+  margin-left: 37.5%;
  }
  }
 
 /*____________________Десктопная версия_______________________________*/
 
  @media screen and (min-width: 961px) and (max-width: 1920px),(min-width: 1921px) {
-
-body {
-  width: 1920px;
-}
 
 header {
   height: 1010px;
