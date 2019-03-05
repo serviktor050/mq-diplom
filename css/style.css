@@ -812,9 +812,10 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 302px;
-  margin-bottom: 8px;
+  flex-wrap: nowrap;
+  margin-left: 8%;
+  margin-top: 304px;
+  margin-bottom: 91px;
   z-index: 2;
 }
 
@@ -822,14 +823,16 @@ header {
   width: 311px;
   height: 77px;
   border-radius: 40px;
-  margin-left: 8%;
+  margin-left: 0;
+  margin-right: 4%;
+  margin-bottom: 0;
 }
 
 .header_google_play {
   width: 311px;
   height: 77px;
   border-radius: 40px;
-  margin-right: 5%;
+  margin: 0;
 }
 
 .header_app_store_logo {
@@ -1238,6 +1241,7 @@ footer {
   font-size: 78px;
   letter-spacing: 6.7px;
   padding-left: 3%;
+  white-space: nowrap;
 }
 
 .footer_text_2 {
@@ -1246,6 +1250,7 @@ footer {
   font-weight: 400;
   padding-left: 3%;
   letter-spacing: 0.8px;
+  white-space: nowrap;
 
 }
 
@@ -1253,7 +1258,7 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-top: 279px;
   z-index: 2;
 }
@@ -1329,6 +1334,12 @@ footer {
  }
  }
 
+ @media screen and (min-width: 641px) and (max-width: 704px) {
+.header_text_2 {
+  white-space: nowrap;
+}
+}
+
 /*____________________Десктопная версия_______________________________*/
 
  @media screen and (min-width: 961px) and (max-width: 1920px),(min-width: 1921px) {
@@ -1349,7 +1360,7 @@ header {
 }
 
 .header_title {
-  margin-top: 265px;
+  margin-top: 14%;
 }
 
 .header_text_1 {
@@ -1370,8 +1381,8 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 203px;
-  margin-bottom: 110px;
+  margin-top: 10.6%;
+  margin-bottom: 5.8%;
   z-index: 2;
 }
 
@@ -1790,9 +1801,9 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
+  width: 100%;
   margin-top: 129px;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   z-index: 2;
 }
