@@ -1374,6 +1374,7 @@ header {
   margin-top: -24px;
   padding-left: 33.46%;
   letter-spacing: 5px;
+  white-space: nowrap;
 }
 
 .header_button_full {
@@ -1800,18 +1801,16 @@ footer {
 .footer_icon_and_title {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 100%;
   margin-top: 129px;
-  margin-left: 25%;
-  margin-right: auto;
   z-index: 2;
 }
 
 .footer_icon {
   width: 132px;
   height: 138px;
-  margin-left: 49px;
+  margin-left: 27.5%;
   margin-right: -8px;
   border-radius: 30px;
 }
@@ -1823,10 +1822,11 @@ footer {
 }
 
 .footer_title {
-  width: 77.6%;
+  width: 45%;
   margin-left: 38px;
   margin-right: 0;
   margin-top: 93px;
+  white-space: nowrap;
 }
 
 .footer_text_1 {
