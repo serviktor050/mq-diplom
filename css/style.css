@@ -1389,7 +1389,7 @@ header {
 }
 
 .header_title {
-  margin-top: 14%;
+  margin-top: 264px;
 }
 
 .header_text_1 {
@@ -1403,7 +1403,6 @@ header {
   margin-top: -24px;
   padding-left: 33.46%;
   letter-spacing: 5px;
-  white-space: nowrap;
 }
 
 .header_button_full {
@@ -1411,8 +1410,8 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 10.6%;
-  margin-bottom: 5.8%;
+  margin-top: 205px;
+  margin-bottom: 109px;
   z-index: 2;
 }
 
@@ -1830,7 +1829,7 @@ footer {
 .footer_icon_and_title {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 129px;
   z-index: 2;
@@ -1855,7 +1854,6 @@ footer {
   margin-left: 38px;
   margin-right: 0;
   margin-top: 93px;
-  white-space: nowrap;
 }
 
 .footer_text_1 {
@@ -1949,4 +1947,43 @@ footer {
   margin-top: 246px;
   margin-bottom: 51px;
  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1663px) {
+
+.header_title {
+  margin-top: 284px;
+}
+
+.header_text_1 {
+  font-size: 70px;
+  letter-spacing: 4.5px;
+}
+
+.header_text_2 {
+  font-size: 70px;
+  margin-top: 3px;
+  padding-left: 17%;
+  letter-spacing: 0;
+}
+
+.header_button_full {
+  margin-top: 208px;
+  margin-bottom: 110px;
+}
+}
+
+@media screen and (min-width: 961px) and (max-width: 1602px) {
+
+.footer_icon {
+  margin-left: 16.5%;
+}
+
+.footer_title {
+  width: 66%;
+}
+
+.footer_text_1 {
+  font-size: 71px;
+}
 }
