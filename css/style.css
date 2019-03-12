@@ -1971,6 +1971,10 @@ footer {
   margin-top: 208px;
   margin-bottom: 110px;
 }
+
+.img_sport_football {
+  margin-left: 0;
+}
 }
 
 @media screen and (min-width: 961px) and (max-width: 1602px) {
